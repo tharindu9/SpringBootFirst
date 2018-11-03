@@ -15,7 +15,7 @@ public class UserMode {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	@Column(name = "u_id")
+	@Column(name = "id")
 	private Integer id;
     
 	@Column(name = "first_name")

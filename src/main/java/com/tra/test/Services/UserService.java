@@ -6,9 +6,15 @@ import com.tra.test.domain.UserMode;
 
 public interface UserService {
 	
-	public List<UserMode> getAllUsers();
+	 public List<UserMode> getAllUsers();
 	
-	 String saveUser(UserMode userMode);
+	 public String saveUser(UserMode userMode);
+	 
+	 public String updateNewUser(UserMode updateUser);
+	 
+	 public UserMode findById(Integer id);
+		
+	
 		
 	
 
